@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#box div{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 0, 255, 0.609);
+}
+.buttonn:hover{
+    box-shadow: 4px 4px 4px rgba(0, 0, 255, 0.294);
+    border: 2px solid black;
+}
+#box{
+    height: 350px;
+    width: 350px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+#game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin: 15px auto;
+    font-weight: 900;
+    font-size: 80px;
+    text-align: center;
+}
+.buttonn{
+    z-index: 2;
+    font-weight: 500;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100%;
+}
+
+/* appear for draw or win of someone */
+/* initially hidden appear by javascript */
+#draw{
+    margin-top: 4rem;
+    font-size: 80px;
+    z-index: 3;
+    text-align: center;
+    display: none;
+    position:absolute;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.495);
+    width: 75%;
+    margin-left: 12.5%;
+}
+#draw span{
+    display: block;
+    height: 100%;
+    margin-top: 3rem;
+}
+
+
+/* responsiveness */
+@media screen and (max-width: 550px){
+    h1{
+        font-size: 50px;
+    }   
+    body{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #game{
+        margin-top: 10%;
+    }
+}
+@media screen and (max-width: 350px) {
+    #box div{
+        height: 50px;
+        width: 50px;
+    }
+    #box{
+        height: 180px;
+        width: 180px;
+    }
+    h1{
+        font-size: 30PX;
+    }
+}
