@@ -72,7 +72,7 @@ Tic-Tac-Toe-Game/
 
 (If you host it on GitHub Pages or Vercel, put your link here)
 
-👉 [Play Tic Tac Toe](https://your-live-demo-link.com)
+👉 [Play Tic Tac Toe](https://vaibhavpal7549.github.io/Tic-Tac-Toe-Game/)
 
 ---
 
