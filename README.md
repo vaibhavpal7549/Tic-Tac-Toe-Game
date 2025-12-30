@@ -23,16 +23,6 @@ Check out the live version of the project:
 
 ---
 
-## 📸 Screenshots
-
-(Add your game screenshots here by uploading images to your repo and using)
-
-```markdown
-![Game Screenshot](./screenshots/game.png)
-```
-
----
-
 ## 🛠️ Tech Stack
 
 * **Frontend**: HTML, CSS, JavaScript
