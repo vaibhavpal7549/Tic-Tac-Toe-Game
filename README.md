@@ -5,6 +5,14 @@ Play with a friend in the browser and enjoy this timeless classic!
 
 ---
 
+## Live Demo
+
+Check out the live version of the project:
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Here-blue)](https://vaibhavpal7549.github.io/Tic-Tac-Toe-Game/)
+
+---
+
 ## 🚀 Features
 
 ✅ Two-player game (Player X and Player O)
@@ -85,5 +93,8 @@ Tic-Tac-Toe-Game/
 * 🐙 [GitHub](https://github.com/vaibhavpal7549)
 
 ---
+
+## License  
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ✨ Enjoy playing Tic Tac Toe and feel free to contribute by suggesting new features!
